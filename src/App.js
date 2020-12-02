@@ -11,7 +11,7 @@ class App extends Component{
           <Router>
             <Switch>
               <Route exact path={"/"} component={ChefList}/>
-              <Route exact path={"/chef_detail"} component={ChefDetail}/>
+              <Route exact path={"/chef_detail/:chef"} component={ChefDetail}/>
             </Switch>
           </Router>
       )
